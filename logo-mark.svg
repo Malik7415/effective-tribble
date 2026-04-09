@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="320 180 430 430" fill="none">
+  <defs>
+    <linearGradient id="pinGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3FD0CE" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0B88B3" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#295E90"/>
+      <stop offset="100%" stop-color="#0B3C70"/>
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C6ECE8"/>
+      <stop offset="100%" stop-color="#A7DBDC"/>
+    </linearGradient>
+    <linearGradient id="barOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F59A2D"/>
+      <stop offset="100%" stop-color="#E07B14"/>
+    </linearGradient>
+    <linearGradient id="barYellow1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6C625"/>
+      <stop offset="100%" stop-color="#EFAE0F"/>
+    </linearGradient>
+    <linearGradient id="barYellow2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD84E"/>
+      <stop offset="100%" stop-color="#F2BB12"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2FB9CD"/>
+      <stop offset="100%" stop-color="#1F9AB7"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="520" cy="592" rx="170" ry="23" fill="#D8D8D8" opacity="0.18"/>
+  <ellipse cx="512" cy="594" rx="67" ry="11" fill="#C8C8C8" opacity="0.18"/>
+
+  <path d="M 520 212 C 607 212 678 283 678 370 C 678 454 624 506 520 613 C 416 506 362 454 362 370 C 362 283 433 212 520 212 Z" fill="url(#pinGrad2)"/>
+  <path d="M 464 232 C 403 260 378 319 378 375 C 378 437 407 477 464 537 C 449 499 443 461 443 425 C 443 335 496 261 579 241 C 552 228 523 222 491 222 C 481 222 472 225 464 232 Z" fill="#5DE0D6" opacity="0.20"/>
+  <path d="M 529 220 C 608 223 663 280 662 353 C 658 343 649 331 636 322 C 638 267 596 232 529 220 Z" fill="#C9FBF5" opacity="0.30"/>
+  <circle cx="520" cy="372" r="107" fill="#FFFFFF"/>
+
+  <g>
+    <rect x="430" y="360" width="30" height="83" rx="1" fill="url(#barOrange)"/>
+    <rect x="468" y="331" width="31" height="112" rx="1" fill="url(#barYellow1)"/>
+    <rect x="507" y="304" width="31" height="139" rx="1" fill="url(#barYellow2)"/>
+    <rect x="545" y="277" width="32" height="166" rx="1" fill="url(#barBlue)"/>
+    <path d="M 528 443 L 538 443 L 538 324 Q 532 355 523 385 Q 520 394 517 402 Q 514 411 513 420 Q 512 431 514 443 Z" fill="#F7D95F" opacity="0.55"/>
+  </g>
+
+  <g>
+    <circle cx="592" cy="422" r="76" fill="none" stroke="url(#ringGrad)" stroke-width="18"/>
+    <circle cx="592" cy="422" r="58" fill="url(#lensGrad)"/>
+    <circle cx="592" cy="422" r="52" fill="#A8DFDC" opacity="0.55"/>
+    <path d="M 559 388 C 548 402 545 418 548 433" fill="none" stroke="#E8FFFF" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 607 380 C 618 384 627 391 634 401" fill="none" stroke="#E8FFFF" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+    <rect x="637" y="476" width="109" height="34" rx="12" fill="url(#ringGrad)" transform="rotate(45 637 476)"/>
+  </g>
+</svg>
